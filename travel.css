@@ -1,0 +1,310 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    font-family: 'Poppins',sans-serif,'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+ul{
+    display: flex;
+    padding: 22px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 20px;
+    color: white;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.icons i{
+    font-size: 40px;
+    color: black;
+}
+.logo{
+    font-size: 20px;
+    color: black;
+
+}
+.logo span{
+  color: white;
+}
+#bar{
+    display: none;
+}
+.main{
+    background-image: url(river.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.maintext{
+    position:relative;
+    text-align: center;
+    top: 48%;
+    color: whitesmoke;
+    font-size: 28px;
+}
+.maintext button{
+    width: 140px;
+    height: 40px;
+    border: 2px solid orange;
+    font-size: 21px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: orange;
+    background-color: blueviolet;
+    text-align: bolder;
+
+
+}
+.maintext button:hover{
+    background-color: purple;
+
+}
+.head{
+    text-align: center;
+    padding: 85px;
+
+}
+.head span{
+    color: orange;
+}
+.booking{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+.booking img{
+    width: 550px;
+    border-radius:5px;
+
+}
+.booking button{
+    width: 75px;
+    height: 25px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.form{
+    margin-inline: 28px;
+    width: 420px;
+    background-color: #ffffff;
+    padding: 22px;
+    box-shadow: 0px 3px 3px 6px rgb(230, 229, 229);
+    text-decoration-line: bolder;
+    border-radius: 4px;
+}
+.form input{
+    width: 85%;
+    padding: 7px;
+    font-size: 18px;
+    color:black;
+    margin-top: 5px;
+    
+}
+.form p{
+    margin-top: 20px;
+}
+.packages{
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+
+
+}
+.packages .card{
+    width: 300px;
+    height: 360px;
+    border-radius: 5px;
+    margin-inline: 20px;
+    box-shadow: 0px 3px 3px 6px rgb(230, 229, 229);
+    margin-top: 11px;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+.card h3{
+    margin-left: 11px;
+    margin-top: 11px;
+
+}
+.card p{
+    margin-left: 11px;
+    margin-top: 11px;
+    
+}
+.places{
+    display: grid;
+    justify-content: center;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin: auto;
+
+}
+
+.places .placecard{
+    background-color: white;
+    box-shadow: 0px 3px 3px 6px rgb(230, 229, 229);
+    height: 360px;
+    border-radius: 5px;
+    margin-inline: 2px;
+    margin-top: 22px;
+
+
+}
+.placecard img{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+.placecard h3{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.placecard p{
+    margin-top: 11px;
+    margin-left: 11px;
+
+}
+.Contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Contact img{
+    width: 550px;
+}
+.Contactform{
+    width: 300px;
+    height: 230px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 6px rgb(231, 229, 229);
+    margin-top: 122px;
+    padding: 22px;
+}
+.Contactform input{
+    width: 90%;
+    padding: 6px;
+    font-size: 16px;
+    margin-top: 3px;
+}
+.Contactform p{
+    margin-top: 13px;
+
+}
+.Contactform button{
+    width: 75px;
+    height: 25px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: #ffffff;
+    padding: 66px;
+    margin-top: 55px;
+
+}
+.text p{
+    margin-top: 11px;
+
+}
+.loginpage{
+    display: none;
+}
+.active1{
+    display: block;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 11px;
+    box-shadow: 0px 4px 4px 6px rgb(227, 226, 226);
+    position: fixed;
+    top: 12%;
+    right: 2%;
+    
+}
+.active1 input{
+    width: 90%;
+    padding: 6px;
+    margin-top: 30px;
+}
+.active1 button{
+    background-color: orange;
+    color: #ffffff;
+    width: 80px;
+    font-size: 16px;
+    border: none;
+    margin-top: 15px;
+}
+@media only screen and (max-width:900px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+}
+@media only screen and (max-width:800px){
+.maintext h1{
+        font-size: 38px;
+    }
+.booking img{
+    width: 90%;
+}
+.Contact img{
+    width: 90%;
+}  
+.Contactform{
+    width: 60%;
+}
+.footer{
+    width: 80%;
+}
+}
+@media only screen and (max-width:900px){
+.maintext h1{
+        font-size: 30px;
+    }
+    
+}
+
